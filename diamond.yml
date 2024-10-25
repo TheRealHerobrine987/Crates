@@ -1,0 +1,351 @@
+Name: Diamond Crate
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - diamond
+Block:
+  Positions:
+  - -4,97,-19,Spawn.1
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: NONE
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    diamond_helmet:
+      Name: Diamond Helmet
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c012rb9dpim6sj1cpq3krb5dpi6irj70000008300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg00000c1g053dd5n6aoric5j78ejge9nn8pb3ehkmurg0000080001001arb9dpim6sj1cpq3korledq6uravdpgmqp80ilti4pboehp628hqbdti4ojfdhi24ejke9qmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24h39c5mmurj44146ar3dclq24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c012rb9dpim6sj1cpq3krb5dpi6irj70000008300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg00000c1g053dd5n6aoric5j78ejge9nn8pb3ehkmurg0000080001001arb9dpim6sj1cpq3korledq6uravdpgmqp80ilti4pboehp628hqbdti4ojfdhi24ejke9qmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24h39c5mmurj44146ar3dclq24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Ignored_For_Permissions: []
+    diamond_chestplate:
+      Name: Diamond Chestplate
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600hdlkmspb3e9gmct1qdlimsp39dpjg0000041g053dd5n6aoric5j78ejldph74pb1ddkmspo0000060o02hmmirj5cdp62pjk79o74rrkclhn8qbfdo0000040000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck09iup2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh28hkm2rbfdpi20gr8clpn8s3cc5q6a8hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600hdlkmspb3e9gmct1qdlimsp39dpjg0000041g053dd5n6aoric5j78ejldph74pb1ddkmspo0000060o02hmmirj5cdp62pjk79o74rrkclhn8qbfdo0000040000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck09iup2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh28hkm2rbfdpi20gr8clpn8s3cc5q6a8hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Ignored_For_Permissions: []
+    diamond_leggings:
+      Name: Diamond Leggings
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g04bdd5n6aoric5j78ejdcln68qbecs0000010c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000001g600kdlkmspb3e9gmct1qe1p6ut35cdq6irre00000100004005bdd5n6aoric5j78ej3elpn8rrdbtn62rb502bnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49hmur3fe8h3k8j1e5qm28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i4d5gmqrrecgg4opb7ctkmsprj48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g04bdd5n6aoric5j78ejdcln68qbecs0000010c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000001g600kdlkmspb3e9gmct1qe1p6ut35cdq6irre00000100004005bdd5n6aoric5j78ej3elpn8rrdbtn62rb502bnm8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49hmur3fe8h3k8j1e5qm28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i4d5gmqrrecgg4opb7ctkmsprj48m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Ignored_For_Permissions: []
+    diamond_boots:
+      Name: Diamond Boots
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600hdlkmspb3e9gmct1qdlimsp39dpjg0000041g053dd5n6aoric5j78ejldph74pb1ddkmspo0000060o02hmmirj5cdp62pjk79o74rrkclhn8qbfdo0000040000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck098up2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh28hkm2rbfdpi20gjfdtq768hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8so0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600hdlkmspb3e9gmct1qdlimsp39dpjg0000041g053dd5n6aoric5j78ejldph74pb1ddkmspo0000060o02hmmirj5cdp62pjk79o74rrkclhn8qbfdo0000040000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck098up2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh28hkm2rbfdpi20gjfdtq768hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8so0
+      Ignored_For_Permissions: []
+    diamond_sword:
+      Name: Diamond Sword
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c012rb9dpim6sj1cpq3krb5dpi6irj70000008300amqqbeclhn4ob6egt6cqbiclfm2srgclhn80000010600jdlkmspb3e9gmct1qedk62sjgdpin6so00000a0o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000030000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck098up2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh28hkm2rbfdpi20krndtp688hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p00
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c012rb9dpim6sj1cpq3krb5dpi6irj70000008300amqqbeclhn4ob6egt6cqbiclfm2srgclhn80000010600jdlkmspb3e9gmct1qedk62sjgdpin6so00000a0o02hmmirj5cdp62pjk79qmsojiclgmmqbecs0000030000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck098up2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh28hkm2rbfdpi20krndtp688hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p00
+      Ignored_For_Permissions: []
+    diamond_axe:
+      Name: Diamond Axe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g04bdd5n6aoric5j78ejdcln68qbecs0000010c018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni000002g600jdlkmspb3e9gmct1qedk62sjgdpin6so00000a0o025mmirj5cdp62pjk79j6usjkeln6a000001g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000o0004005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50297m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49hmur3fe8h3k8j1e5qm28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i4d5gmqrrecgg42u3548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g04bdd5n6aoric5j78ejdcln68qbecs0000010c018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni000002g600jdlkmspb3e9gmct1qedk62sjgdpin6so00000a0o025mmirj5cdp62pjk79j6usjkeln6a000001g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000o0004005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50297m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49hmur3fe8h3k8j1e5qm28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i4d5gmqrrecgg42u3548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Ignored_For_Permissions: []
+    diamond_pickaxe:
+      Name: Diamond Pickaxe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3008mqqbeclhn4ob6egt6qpbechkmspo0000020o02hmmirj5cdp62pjk79imcpj9cdkmarj3f40000050c012rb9dpim6sj1cpq3kpjfe9q7arj5000000o300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg00000c0002002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig15jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq49gn2tb148m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4926iobddtn6882gd5hmmobockh2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v800c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp80
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3008mqqbeclhn4ob6egt6qpbechkmspo0000020o02hmmirj5cdp62pjk79imcpj9cdkmarj3f40000050c012rb9dpim6sj1cpq3kpjfe9q7arj5000000o300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg00000c0002002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig15jr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq49gn2tb148m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4926iobddtn6882gd5hmmobockh2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v800c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp80
+      Ignored_For_Permissions: []
+    diamond_shovel:
+      Name: Diamond Shovel
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g04bdd5n6aoric5j78ejdcln68qbecs0000010c018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni000002g600hdlkmspb3e9gmct1qcpnn4t3ldpig00000c1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000060001001arb9dpim6sj1cpq3korledq6uravdpgmqp80ilti4pboehp628hqbdti4ojfdhi24ejke9qmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24h39c5mmurj4419mgrrmclm24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5usr8dtr6ar00
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g04bdd5n6aoric5j78ejdcln68qbecs0000010c018rb9dpim6sj1cpq3kpb6cpkm6qb5dphni000002g600hdlkmspb3e9gmct1qcpnn4t3ldpig00000c1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000060001001arb9dpim6sj1cpq3korledq6uravdpgmqp80ilti4pboehp628hqbdti4ojfdhi24ejke9qmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24h39c5mmurj4419mgrrmclm24b12eln68pbidhkmspb448t6cobcedinqn9c49q6au3k48t248jt001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5usr8dtr6ar00
+      Ignored_For_Permissions: []
+    diamond_hoe:
+      Name: Diamond Hoe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600hdlkmspb3e9gmct1qdlimsp39dpjg0000041g053dd5n6aoric5j78ej5cpj6ior9cln66u800000a0o025mmirj5cdp62pjk79j6usjkeln6a000001g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000o0004005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50297m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49hmur3fe8h3k8j1e5qm28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i4d5gmqrrecgg4grr548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btk6up80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600hdlkmspb3e9gmct1qdlimsp39dpjg0000041g053dd5n6aoric5j78ej5cpj6ior9cln66u800000a0o025mmirj5cdp62pjk79j6usjkeln6a000001g600kdlkmspb3e9gmct1qeln64sj5c5lmirj7000000o0004005bdd5n6aoric5j78ej3elpn8rrdbtn62rb50297m8j5f1q74o9279dnm8j2dtm688hqehp7ap9c49hmur3fe8h3k8j1e5qm28hc49kn8obcd5hi4ej6c5m76p9c49nm4pjledhm2t35cgh3kpj1dhpmab12edq74qbbclq6gsjfeljmg8hqcpgmosr55gh78pboegh3k8i4d5gmqrrecgg4grr548m24tbechin4r39dpim88hqcpgmosr5fleio8jkcls788hq48h7q003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btk6up80
+      Ignored_For_Permissions: []
+    256x_tnt:
+      Name: 256x Tnt
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck08uup2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh268qjcu10ah7588hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000000880016ip001lmmirj5cdp62pjk79q6st00
+      Commands: []
+      Items:
+      - a00006005cdnnarjk00000g080016ip001lmmirj5cdp62pjk79q6st00
+      - a00006005cdnnarjk00000g080016ip001lmmirj5cdp62pjk79q6st00
+      - a00006005cdnnarjk00000g080016ip001lmmirj5cdp62pjk79q6st00
+      - a00006005cdnnarjk00000g080016ip001lmmirj5cdp62pjk79q6st00
+      Ignored_For_Permissions: []
+    16x_diamond_blocks:
+      Name: 16x Diamond Blocks
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgg00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck09iup2cls78sj148t5mup2c9nmop1279q74tb55gh66rrcdtp24eh2c5onao925gh6it31dhkm68hqcpgmosr55gh6uoj6elpm6obkcli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24t35f1q24eh264r7g824d5gmqrrecgg44r3fcdln68hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk006005cdnnarjk000004080016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dhnm6qo0
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000004080016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dhnm6qo0
+      Ignored_For_Permissions: []
+    5x_bomb_spawn_eggs:
+      Name: 5x Bomb Spawn Eggs
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1400srb9dpim6sj1cpq3kr3fe9igg00000100fbr49hmur3fe8h3k8j4c5p6mnr2dhqma8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t24kj9ctk78823dhkm6qp09lnm48jt00u7m8j3dtm6ush278h68obiddfm4r3lckh2o8j9ehgmoqb348t6cobcediio8jkcls788hq49a6u822dhnne829egg5ak1149ugk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo00000k0001001arb9dpim6sj1cpq3korledq6uravdpgmqp80j5ti4pboehp628hqbdti4ojfdhi24ejke9qmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24dbo4116urb2419n0obndog4apr7ech2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8300dmqqbeclhn4ob6egt66tbjehnmqnrddti6ar2vchgn8o80000022g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggg00a9lcl8i298dfkahq700244rrdc80000o00lhmutbeeg00000510004qb400dmqqbeclhn4ob6egt66sj5clo6asivedo62trebtimepo0
+      Commands: []
+      Items:
+      - 2g0005002j3dtmn0rrecln78so90076qqbeclhn4ob6egt6orrick4000000803qup2cdnmorri48t24p31e9lluojcelii4b12d5q62r39cch3kpj1dhpmab12ehingt1278h54qb7d1q20grcd5hmm82ddth24v807hti4orfdhnn48hq49i62sjbbth6otb548m24qbkc5m6iop279j62r3jckm24t35f1q24eh2ahni0gjcdtri0ibk41al0892fk5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e0000050000800amqqbeclhn4ob6egt66tbjehnmqnrec5mma01mfch66rrcdtp24eh2e9im88hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t24gjfdlh20krgc5rms825ctji4v8300dmqqbeclhn4ob6egt66tbjehnmqnrddti6ar2vchgn8o80000022g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggg00a9lcl8i298dfkahq700244rrdc80000o00lhmutbeeg00000510004qb400dmqqbeclhn4ob6egt66sj5clo6asivedo62trebtimepo0
+      Ignored_For_Permissions: []
+    3x_big_bomb_spawn_eggs:
+      Name: 3x Big Bomb Spawn Eggs
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762801pmmirj5cdp62pjk79m6usj51000000200unm8j3dtm6ush278h68obiddfm4r3lckh2o8j9ehgmoqb348t6cobcediio8jkcls788hq4996ipr8egg46r39cdli0jbfc8h7q01sfch66rrcdtp24eh2chgn4qqvc9m7ap925gh6it31dhkm68hqcpgmosr55gh78pboegh3k8ikdsg44r3fesg4it10al8228jt1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000180002002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig17br49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq49gn2tb148m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq48png822d5ji0gjfdlh20krgc5rms825ctjn68hc49qmsp35e9m6irj5cgh3kpj1dhpmavat5gh78pboegh3k8h2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc40000011801arb9dpim6sj1cpq3korledq6uravchgn8o880054qmak914k6nq58t3g01q2d5jk4rrdc80000o00lhmutbeeg00000310004qb400dmqqbeclhn4ob6egt66sj5clo6asivedo62trebtimepo0
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgi00edlkmspb3e9gmct1qdhnn4p88000000g07lti4orfdhnn48hq49i62sjbbth6otb548m24qbkc5m6iop279j62r3jckm24t35f1q24eh2a9kmeq3k411moqb3dcg4qrr249ug0f3r49hmur3fe8h3k8j4c5p6mnr2dhqma8hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t24l3f4116orrn414n882la0gi4v8a00b6qqbeclhn4ob6egt6arj3d1gmst3dcln78soa0036opbmclm760o02hmmirj5cdp62pjk79qmsojiclgmmqbecs00000a0000g00ldlkmspb3e9gmct1qcdqn6t3fdlfmsobdck03uup2cdnmorri48t24p31e9llusj5cgh2o8j9ehgmoqb348t6cobcediio8jkcls788hq4916ipp089nmqoh0ado62tre412mepp2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc40000011801arb9dpim6sj1cpq3korledq6uravchgn8o880054qmak914k6nq58t3g01q2d5jk4rrdc80000o00lhmutbeeg00000310004qb400dmqqbeclhn4ob6egt66sj5clo6asivedo62trebtimepo0
+      Ignored_For_Permissions: []
+    3x_magma_cube_spawners:
+      Name: 3x Magma Cube Spawners
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5006rdd5n6aoric5j78ej2dhnm6qqvcln78qbkf5fm8obkc41004adc5s4spb1e9h7ihbeehkn8qb5ec00c2g0159n0obndp262t311800cpbeehkn8u880016ip002hmmirj5cdp62pjk79mm2prdc5fm6tb2ck0000g01l6mirije1gneri4clm62u80p04000j9cg01arb9dpim6sj1cpq3krbfc9fn6s31etn6asg9007l6s31etn50rrkcln78qb1dhpg00000000400aado62trea9gmspr50020400d9lgngkrgc5rmsh35dhgni0p008016kj5e5qmisj5ch86oobpclp54obectig040200556s31etn46rrldpq00102002k8pbcc5sg05001001arb9dpim6sj1cpq3korledq6uravdpgmqp80j5ti4pboehp628hqbdti4ojfdhi24ejke9qmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24jb1ctmm2823elh6a82je1gnerj5e8h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q620o0159n8ob3dd9miuj50000008018022rb9dpim6sj1cpq3kq39chiluob4chkn8qbfdpgmonrkdtnmot39e00000o00lhmutbeeg00000310004qb4008mqqbeclhn4ob6egt76s31etn6asg0
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5006rdd5n6aoric5j78ej2dhnm6qqvcln78qbkf5fm8obkc41004adc5s4spb1e9h7ihbeehkn8qb5ec00c2g0159n0obndp262t311800cpbeehkn8u880016ip002hmmirj5cdp62pjk79mm2prdc5fm6tb2ck0000g01l6mirije1gneri4clm62u80p04000j9cg01arb9dpim6sj1cpq3krbfc9fn6s31etn6asg9007l6s31etn50rrkcln78qb1dhpg00000000400aado62trea9gmspr50020400d9lgngkrgc5rmsh35dhgni0p008016kj5e5qmisj5ch86oobpclp54obectig040200556s31etn46rrldpq00102002k8pbcc5sg05001001arb9dpim6sj1cpq3korledq6uravdpgmqp80j5ti4pboehp628hqbdti4ojfdhi24ejke9qmab12cdnmorri48t24obhelgi4b12d5q62r39cch3kpj1dhpmab12dth6ctbjcdgn8pb448t6cobcediio8jjehp6iqr5ehk74rrlctk24ej6c5m76p9c49q6au3k48t24jb1ctmm2823elh6a82je1gnerj5e8h2o8jldpi6asjcd5n6ap1279j62r3jclulqb12ehingt1278h24v8a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q620o0159n8ob3dd9miuj50000008018022rb9dpim6sj1cpq3kq39chiluob4chkn8qbfdpgmonrkdtnmot39e00000o00lhmutbeeg00000310004qb4008mqqbeclhn4ob6egt76s31etn6asg0
+      Ignored_For_Permissions: []
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fDiamond Crate'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM
